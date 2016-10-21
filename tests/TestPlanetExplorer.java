@@ -51,7 +51,7 @@ public class TestPlanetExplorer
 	}
 	
 	@Test 
-	public void landing_() throws PlanetExplorerException
+	public void landing_emptyCommand() throws PlanetExplorerException
 	{
 		PlanetExplorer planetExplorer = new PlanetExplorer(100,100,"");
 		assertEquals("0,0,N",  planetExplorer.executeCommand(""));

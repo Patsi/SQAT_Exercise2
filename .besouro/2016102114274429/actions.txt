@@ -114,3 +114,6 @@ UnitTestSessionAction 1477052547628 TestPlanetExplorer.landing_emptyCommand FAIL
 UnitTestCaseAction 1477052552670 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477052552670 TestPlanetExplorer.java FAIL
 EditAction 1477052628534 PlanetExplorer.java 1541 4 4 0
+UnitTestCaseAction 1477052628818 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477052628818 TestPlanetExplorer.java FAIL
+EditAction 1477052658582 PlanetExplorer.java 1541 4 4 0

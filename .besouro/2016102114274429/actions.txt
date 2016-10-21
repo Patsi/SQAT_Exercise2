@@ -76,3 +76,11 @@ EditAction 1477051819206 TestPlanetExplorer.java 1420 6 12 2
 UnitTestCaseAction 1477051819536 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477051819536 TestPlanetExplorer.java FAIL
 EditAction 1477051826353 TestPlanetExplorer.java 1424 6 12 2
+UnitTestCaseAction 1477051826684 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477051826684 TestPlanetExplorer.java FAIL
+RefactoringAction 1477051902329 TestPlanetExplorer.java ADD void thePlanet_definePlanet100x100()/2 METHOD
+RefactoringAction 1477051910051 TestPlanetExplorer.java RENAME thePlanet_definePlanet100x100()/2=>void thePlanet_definePlanet10x100() METHOD
+RefactoringAction 1477051911595 TestPlanetExplorer.java RENAME thePlanet_definePlanet10x100()=>void thePlanet_definePlanet1x100() METHOD
+RefactoringAction 1477051915214 TestPlanetExplorer.java RENAME thePlanet_definePlanet1x100()=>void thePlanet_definePlanet1x1() METHOD
+RefactoringAction 1477051918303 TestPlanetExplorer.java RENAME thePlanet_definePlanet1x1()=>void thePlanet_definePlanet1x2() METHOD
+EditAction 1477051970735 TestPlanetExplorer.java 1659 7 15 4

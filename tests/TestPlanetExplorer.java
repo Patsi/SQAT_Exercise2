@@ -42,7 +42,15 @@ public class TestPlanetExplorer
 		planetExplorer.getY();
 	}
 
+	@Test 
+	public void thePlanet_definePlanet1x2() throws PlanetExplorerException
+	{
+		PlanetExplorer planetExplorer = new PlanetExplorer(1,2,"");
+		assertEquals(1,  planetExplorer.getX());
+		assertEquals(2,  planetExplorer.getY());
+	}
 	
+
 	@Test
 	public void test_executeCommand() 
 	{

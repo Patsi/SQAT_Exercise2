@@ -2,10 +2,12 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import com.sun.xml.internal.ws.api.pipe.ThrowableContainerPropertySet;
+
 public class TestPlanetExplorer 
 {
 	@Test 
-	public void thePlanet_definePlanet100x100()
+	public void thePlanet_definePlanet100x100() throws PlanetExplorerException
 	{
 		PlanetExplorer planetExplorer = new PlanetExplorer(100,100,"");
 		assertEquals(100,  planetExplorer.getX());
@@ -13,9 +15,9 @@ public class TestPlanetExplorer
 	}
 	
 	@Test (expected=PlanetExplorerException.class) 
-	public void thePlanet_definePlanetNegativeX()
+	public void thePlanet_definePlanetNegativeX() throws PlanetExplorerException
 	{
-		PlanetExplorer planetExplorer = new PlanetExplorer(-1,-1,"");
+		PlanetExplorer planetExplorer = new PlanetExplorer(-1,1,"");
 		planetExplorer.getX();
 	}
 

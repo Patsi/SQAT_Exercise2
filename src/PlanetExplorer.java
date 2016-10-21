@@ -56,6 +56,7 @@ public class PlanetExplorer
 		
 		for (int i = 0; i < command.length(); i++)
 		{
+			// a bug here no time to solve it!!!
 			String s = command.substring(i, i);
 			if ("l".equals(s))
 			{

@@ -70,3 +70,6 @@ RefactoringAction 1477051494991 TestPlanetExplorer.java RENAME thePlanet_defineP
 RefactoringAction 1477051497065 TestPlanetExplorer.java RENAME thePlanet_definePlanetY()=>void thePlanet_definePlanetOverY() METHOD
 RefactoringAction 1477051498625 TestPlanetExplorer.java RENAME thePlanet_definePlanetOverY()=>void thePlanet_definePlanetOverFlowY() METHOD
 EditAction 1477051745716 TestPlanetExplorer.java 1424 6 12 2
+UnitTestCaseAction 1477051746041 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477051746041 TestPlanetExplorer.java FAIL
+EditAction 1477051819206 TestPlanetExplorer.java 1420 6 12 2

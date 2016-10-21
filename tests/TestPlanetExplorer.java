@@ -26,7 +26,7 @@ public class TestPlanetExplorer
 	public void thePlanet_definePlanetNegativeY() throws PlanetExplorerException
 	{
 		PlanetExplorer planetExplorer = new PlanetExplorer(1,-1,"");
-		planetExplorer.getYMaz();
+		planetExplorer.getYMax();
 	}
 
 	@Test (expected=PlanetExplorerException.class) 

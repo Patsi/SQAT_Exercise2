@@ -54,13 +54,17 @@ public class PlanetExplorer
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		if ("l" == command)
+		for (int i = 0; i < command.length(); i++)
 		{
-			cardinalDirection = (cardinalDirection + 3) % 4;
-		}
-		if ("r" == command)
-		{
-			cardinalDirection = (cardinalDirection + 1) % 4;
+			String s = command.substring(i, i);
+			if ("l" == s)
+			{
+				cardinalDirection = (cardinalDirection + 3) % 4;
+			}
+			if ("r" == s)
+			{
+				cardinalDirection = (cardinalDirection + 1) % 4;
+			}
 		}
 		return "(" + Integer.toString(x) + "," + Integer.toString(y) + "," + cardinalDirectionStrings[cardinalDirection]  + ")";
 

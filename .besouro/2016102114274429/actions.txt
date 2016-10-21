@@ -162,3 +162,47 @@ RefactoringAction 1477053486192 TestPlanetExplorer.java ADD void turning_r()/2 M
 RefactoringAction 1477053492385 TestPlanetExplorer.java RENAME turning_l()/2=>void turning_ll() METHOD
 RefactoringAction 1477053499078 TestPlanetExplorer.java RENAME turning_r()/2=>void turning_rr() METHOD
 EditAction 1477053531089 TestPlanetExplorer.java 2687 12 25 9
+UnitTestCaseAction 1477053531404 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477053531404 TestPlanetExplorer.java FAIL
+RefactoringAction 1477053614068 PlanetExplorer.java ADD priva en FIELD
+RefactoringAction 1477053615613 PlanetExplorer.java REMOVE en FIELD
+RefactoringAction 1477053731724 PlanetExplorer.java RENAME CAR=>enum CARD null
+RefactoringAction 1477053733284 PlanetExplorer.java RENAME CARD=>enum CARDINAL null
+RefactoringAction 1477053734329 PlanetExplorer.java RENAME CARDINAL=>enum CARDINALRI null
+RefactoringAction 1477053735889 PlanetExplorer.java RENAME CARDINALRI=>enum CARDINALDI null
+RefactoringAction 1477053736934 PlanetExplorer.java RENAME CARDINALDI=>enum CARDINALDIRE null
+RefactoringAction 1477053738494 PlanetExplorer.java RENAME CARDINALDIRE=>enum CARDINALDIRECTION null
+RefactoringAction 1477053756013 PlanetExplorer.java ADD CARDINALDIRECTION N FIELD
+RefactoringAction 1477053756013 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1477053756013 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1477053756028 PlanetExplorer.java ADD PlanetExplorer(int, int, String) METHOD
+RefactoringAction 1477053756028 PlanetExplorer.java ADD String executeCommand(String) METHOD
+RefactoringAction 1477053756028 PlanetExplorer.java ADD int getX() METHOD
+RefactoringAction 1477053756028 PlanetExplorer.java ADD int getY() METHOD
+RefactoringAction 1477053758103 PlanetExplorer.java ADD CARDINALDIRECTION E FIELD
+RefactoringAction 1477053759648 PlanetExplorer.java REMOVE E FIELD
+RefactoringAction 1477053761208 PlanetExplorer.java ADD CARDINALDIRECTION E FIELD
+RefactoringAction 1477053763298 PlanetExplorer.java ADD CARDINALDIRECTION W FIELD
+RefactoringAction 1477053765873 PlanetExplorer.java ADD CARDINALDIRECTION S FIELD
+RefactoringAction 1477053789585 PlanetExplorer.java RENAME CARDINALDIRECTION=>enum CARDINALDIRECTIONS null
+RefactoringAction 1477053790615 PlanetExplorer.java RENAME CARDINALDIRECTIONS=>enum CARDINALDIRECTION null
+RefactoringAction 1477053851736 PlanetExplorer.java RENAME CARDINALDIRECTION=>enum car null
+RefactoringAction 1477053853795 PlanetExplorer.java RENAME car=>enum cardinal null
+RefactoringAction 1477053857929 PlanetExplorer.java RENAME cardinal=>enum cardinalDirection null
+RefactoringAction 1477053884699 PlanetExplorer.java RENAME cardinalDirection=>enum CardinalDirection null
+RefactoringAction 1477053892437 PlanetExplorer.java ADD CardinalDirection ca FIELD
+RefactoringAction 1477053893981 PlanetExplorer.java RENAME ca=>CardinalDirection cardinalDirection FIELD
+RefactoringAction 1477055067221 PlanetExplorer.java ADD String Cardinal FIELD
+RefactoringAction 1477055068250 PlanetExplorer.java RENAME Cardinal=>String CardinalDi FIELD
+RefactoringAction 1477055071339 PlanetExplorer.java RENAME CardinalDi=>String CardinalDirect FIELD
+RefactoringAction 1477055074932 PlanetExplorer.java RENAME CardinalDirect=>String CardinalDirection FIELD
+RefactoringAction 1477055076993 PlanetExplorer.java RENAME CardinalDirection=>String CardinalDirectionString FIELD
+RefactoringAction 1477055078537 PlanetExplorer.java RENAME CardinalDirectionString=>String CardinalDirectionStrings FIELD
+RefactoringAction 1477055198438 PlanetExplorer.java RENAME CardinalDirectionStrings=>String FIELD
+RefactoringAction 1477055440732 PlanetExplorer.java ADD int N FIELD
+RefactoringAction 1477055456119 PlanetExplorer.java ADD int E FIELD
+RefactoringAction 1477055469952 PlanetExplorer.java ADD int N/2 FIELD
+RefactoringAction 1477055469952 PlanetExplorer.java ADD int E/2 FIELD
+RefactoringAction 1477055475076 PlanetExplorer.java RENAME N/2=>int S FIELD
+RefactoringAction 1477055486887 PlanetExplorer.java RENAME E/2=>int W FIELD
+EditAction 1477055749134 PlanetExplorer.java 2055 4 6 0

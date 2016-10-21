@@ -5,8 +5,17 @@
 
 public class PlanetExplorer 
 {
+	private final int N = 0;
+	private final int E = 1;
+	private final int S = 2;
+	private final int W = 3;
+	
+	private String[] cardinalDirectionStrings = {"N", "E", "S", "W"} 
+	
+	private int cardinalDirection; 
 	private int x;
 	private int y;
+	private 
 	
 	public PlanetExplorer(int x, int y, String obstacles) throws PlanetExplorerException 
 	{
@@ -25,6 +34,7 @@ public class PlanetExplorer
 		{
 			this.x = x;
 			this.y = y;
+			cardinalDirection = N;
 		}
 	}
 	
@@ -43,13 +53,14 @@ public class PlanetExplorer
 		
 		if ("l" == command)
 		{
-			return"(0,0,W)";
+			cardinalDirection = (cardinalDirection + 3) % 4;
 		}
 		if ("r" == command)
 		{
-			return"(0,0,E)";
+			cardinalDirection = (cardinalDirection + 1) % 4;
 		}
-		return "(0,0,N)";
+		return "(" + Integer.toString(x) + "," + Integer.toString(y) + "," + cardinalDirectionStrings[cardinalDirection]  + ")";
+
 	}
 	
 	public int getX ()

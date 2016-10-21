@@ -21,6 +21,13 @@ public class TestPlanetExplorer
 		planetExplorer.getX();
 	}
 
+	@Test (expected=PlanetExplorerException.class) 
+	public void thePlanet_definePlanetNegativeY() throws PlanetExplorerException
+	{
+		PlanetExplorer planetExplorer = new PlanetExplorer(1,-1,"");
+		planetExplorer.getX();
+	}
+
 	
 	@Test
 	public void test_executeCommand() 

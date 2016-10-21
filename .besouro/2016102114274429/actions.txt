@@ -54,3 +54,8 @@ CompilationAction 1477051345002 TestPlanetExplorer.java
 UnitTestCaseAction 1477051345255 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477051345255 TestPlanetExplorer.java FAIL
 EditAction 1477051388638 TestPlanetExplorer.java 720 3 6 2
+UnitTestCaseAction 1477051388969 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477051388969 TestPlanetExplorer.java FAIL
+RefactoringAction 1477051408469 TestPlanetExplorer.java ADD void thePlanet_definePlanetNegativeX()/2 METHOD
+RefactoringAction 1477051414163 TestPlanetExplorer.java RENAME thePlanet_definePlanetNegativeX()/2=>void thePlanet_definePlanetNegativeY() METHOD
+EditAction 1477051427564 TestPlanetExplorer.java 942 4 8 2

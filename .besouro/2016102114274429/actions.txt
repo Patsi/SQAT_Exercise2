@@ -105,3 +105,12 @@ RefactoringAction 1477052519087 TestPlanetExplorer.java RENAME landing_empty()=>
 RefactoringAction 1477052521661 TestPlanetExplorer.java RENAME landing_emptyc()=>void landing_emptyC() METHOD
 RefactoringAction 1477052523720 TestPlanetExplorer.java RENAME landing_emptyC()=>void landing_emptyCommand() METHOD
 EditAction 1477052530147 TestPlanetExplorer.java 1869 8 17 5
+UnitTestCaseAction 1477052530493 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477052530493 TestPlanetExplorer.landing_emptyCommand FAIL
+UnitTestCaseAction 1477052539232 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477052539232 TestPlanetExplorer.landing_emptyCommand FAIL
+UnitTestCaseAction 1477052547628 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477052547628 TestPlanetExplorer.landing_emptyCommand FAIL
+UnitTestCaseAction 1477052552670 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477052552670 TestPlanetExplorer.java FAIL
+EditAction 1477052628534 PlanetExplorer.java 1541 4 4 0

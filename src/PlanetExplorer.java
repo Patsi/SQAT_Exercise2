@@ -28,7 +28,8 @@ public class PlanetExplorer
 		}
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command)
+	{
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -40,7 +41,7 @@ public class PlanetExplorer
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return null;
+		return "N,0,0";
 	}
 	
 	public int getX ()

@@ -54,8 +54,16 @@ public class TestPlanetExplorer
 	public void landing_emptyCommand() throws PlanetExplorerException
 	{
 		PlanetExplorer planetExplorer = new PlanetExplorer(100,100,"");
-		assertEquals("0,0,N",  planetExplorer.executeCommand(""));
+		assertEquals("(0,0,N)",  planetExplorer.executeCommand(""));
 	}
+	
+	@Test 
+	public void turning_emptyCommand() throws PlanetExplorerException
+	{
+		PlanetExplorer planetExplorer = new PlanetExplorer(100,100,"");
+		assertEquals("(0,0,N)",  planetExplorer.executeCommand(""));
+	}
+	
 	
 
 	@Test

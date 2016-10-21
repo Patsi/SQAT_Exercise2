@@ -43,3 +43,6 @@ RefactoringAction 1477050654330 TestPlanetExplorer.java RENAME thePlanet_defineP
 RefactoringAction 1477050660008 TestPlanetExplorer.java RENAME thePlanet_definePlanet()=>void thePlanet_definePlanetNegative() METHOD
 RefactoringAction 1477050866403 TestPlanetExplorer.java RENAME thePlanet_definePlanetNegative()=>void thePlanet_definePlanetNegativeX() METHOD
 EditAction 1477050910722 TestPlanetExplorer.java 587 3 6 2
+UnitTestCaseAction 1477050911037 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477050911037 TestPlanetExplorer.java FAIL
+EditAction 1477051237515 PlanetExplorer.java 1461 4 4 0

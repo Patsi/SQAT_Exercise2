@@ -123,3 +123,6 @@ RefactoringAction 1477052801092 TestPlanetExplorer.java ADD void landing_emptyCo
 RefactoringAction 1477052810358 TestPlanetExplorer.java RENAME landing_emptyCommand()/2=>void _emptyCommand() METHOD
 RefactoringAction 1477052814477 TestPlanetExplorer.java RENAME _emptyCommand()=>void turning_emptyCommand() METHOD
 EditAction 1477052924582 TestPlanetExplorer.java 2085 9 19 6
+UnitTestCaseAction 1477052924881 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477052924881 TestPlanetExplorer.java FAIL
+EditAction 1477052938125 PlanetExplorer.java 1543 4 4 0

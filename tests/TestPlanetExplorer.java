@@ -72,6 +72,20 @@ public class TestPlanetExplorer
 		assertEquals("(0,0,E)",  planetExplorer.executeCommand("r"));
 	}
 	
+	@Test 
+	public void turning_ll() throws PlanetExplorerException
+	{
+		PlanetExplorer planetExplorer = new PlanetExplorer(100,100,"");
+		assertEquals("(0,0,S)",  planetExplorer.executeCommand("ll"));
+	}
+	
+	@Test 
+	public void turning_rr() throws PlanetExplorerException
+	{
+		PlanetExplorer planetExplorer = new PlanetExplorer(100,100,"");
+		assertEquals("(0,0,S)",  planetExplorer.executeCommand("rr"));
+	}
+	
 	
 
 	@Test

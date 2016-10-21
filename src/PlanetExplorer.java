@@ -12,6 +12,8 @@ public class PlanetExplorer
 	
 	private String[] cardinalDirectionStrings = {"N", "E", "S", "W"}; 
 	
+	private int xMax;
+	private int yMax;
 	private int cardinalDirection; 
 	private int x;
 	private int y; 
@@ -31,8 +33,10 @@ public class PlanetExplorer
 		}
 		else
 		{
-			this.x = x;
-			this.y = y;
+			xMax = x;
+			yMax = y;
+			x = 0;
+			y = 0;
 			cardinalDirection = N;
 		}
 	}
@@ -70,6 +74,16 @@ public class PlanetExplorer
 	public int getY ()
 	{
 		return y;
+	}
+	
+	public int getXMax ()
+	{
+		return xMax;
+	}
+	
+	public int getYMax ()
+	{
+		return yMax;
 	}
 	
 }

@@ -211,3 +211,24 @@ CompilationAction 1477055749243 PlanetExplorer.java
 CompilationAction 1477055792630 PlanetExplorer.java
 CompilationAction 1477055792661 PlanetExplorer.java
 EditAction 1477055806876 PlanetExplorer.java 2047 4 6 0
+UnitTestCaseAction 1477055807191 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477055807191 TestPlanetExplorer.java FAIL
+RefactoringAction 1477056094299 PlanetExplorer.java ADD int x/2 FIELD
+RefactoringAction 1477056096348 PlanetExplorer.java RENAME x/2=>int xLimit FIELD
+RefactoringAction 1477056106084 PlanetExplorer.java ADD int xLimit/2 FIELD
+RefactoringAction 1477056108647 PlanetExplorer.java RENAME xLimit/2=>int x/2 FIELD
+RefactoringAction 1477056109666 PlanetExplorer.java RENAME x/2=>int xMA FIELD
+RefactoringAction 1477056110696 PlanetExplorer.java RENAME xMA=>int xMAZ FIELD
+RefactoringAction 1477056112229 PlanetExplorer.java RENAME xMAZ=>int xMA FIELD
+RefactoringAction 1477056113248 PlanetExplorer.java RENAME xMA=>int xMa FIELD
+RefactoringAction 1477056114278 PlanetExplorer.java RENAME xMa=>int xMax FIELD
+RefactoringAction 1477056116842 PlanetExplorer.java REMOVE xLimit FIELD
+RefactoringAction 1477056119400 PlanetExplorer.java ADD int yMa FIELD
+RefactoringAction 1477056120430 PlanetExplorer.java RENAME yMa=>int yMax FIELD
+RefactoringAction 1477056182401 PlanetExplorer.java ADD int getX()/2 METHOD
+RefactoringAction 1477056182401 PlanetExplorer.java ADD int getY()/2 METHOD
+RefactoringAction 1477056185978 PlanetExplorer.java RENAME getX()/2=>int getXMa() METHOD
+RefactoringAction 1477056188027 PlanetExplorer.java RENAME getXMa()=>int getXMax() METHOD
+RefactoringAction 1477056192109 PlanetExplorer.java RENAME getY()/2=>int getYM() METHOD
+RefactoringAction 1477056193642 PlanetExplorer.java RENAME getYM()=>int getYMax() METHOD
+EditAction 1477056301542 PlanetExplorer.java 2193 6 8 0

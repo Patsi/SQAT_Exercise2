@@ -206,3 +206,8 @@ RefactoringAction 1477055469952 PlanetExplorer.java ADD int E/2 FIELD
 RefactoringAction 1477055475076 PlanetExplorer.java RENAME N/2=>int S FIELD
 RefactoringAction 1477055486887 PlanetExplorer.java RENAME E/2=>int W FIELD
 EditAction 1477055749134 PlanetExplorer.java 2055 4 6 0
+CompilationAction 1477055749243 PlanetExplorer.java
+CompilationAction 1477055749243 PlanetExplorer.java
+CompilationAction 1477055792630 PlanetExplorer.java
+CompilationAction 1477055792661 PlanetExplorer.java
+EditAction 1477055806876 PlanetExplorer.java 2047 4 6 0

@@ -10,12 +10,11 @@ public class PlanetExplorer
 	private final int S = 2;
 	private final int W = 3;
 	
-	private String[] cardinalDirectionStrings = {"N", "E", "S", "W"} 
+	private String[] cardinalDirectionStrings = {"N", "E", "S", "W"}; 
 	
 	private int cardinalDirection; 
 	private int x;
-	private int y;
-	private 
+	private int y; 
 	
 	public PlanetExplorer(int x, int y, String obstacles) throws PlanetExplorerException 
 	{

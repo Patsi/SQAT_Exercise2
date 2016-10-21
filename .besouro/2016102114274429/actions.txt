@@ -232,3 +232,4 @@ RefactoringAction 1477056188027 PlanetExplorer.java RENAME getXMa()=>int getXMax
 RefactoringAction 1477056192109 PlanetExplorer.java RENAME getY()/2=>int getYM() METHOD
 RefactoringAction 1477056193642 PlanetExplorer.java RENAME getYM()=>int getYMax() METHOD
 EditAction 1477056301542 PlanetExplorer.java 2193 6 8 0
+EditAction 1477056301682 TestPlanetExplorer.java 2715 12 22 7

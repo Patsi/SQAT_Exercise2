@@ -11,44 +11,44 @@ public class TestPlanetExplorer
 	public void thePlanet_definePlanet100x100() throws PlanetExplorerException
 	{
 		PlanetExplorer planetExplorer = new PlanetExplorer(100,100,"");
-		assertEquals(100,  planetExplorer.getX());
-		assertEquals(100,  planetExplorer.getY());
+		assertEquals(100,  planetExplorer.getXMax());
+		assertEquals(100,  planetExplorer.getYMax());
 	}
 	
 	@Test (expected=PlanetExplorerException.class) 
 	public void thePlanet_definePlanetNegativeX() throws PlanetExplorerException
 	{
 		PlanetExplorer planetExplorer = new PlanetExplorer(-1,1,"");
-		planetExplorer.getX();
+		planetExplorer.getXMax();
 	}
 
 	@Test (expected=PlanetExplorerException.class) 
 	public void thePlanet_definePlanetNegativeY() throws PlanetExplorerException
 	{
 		PlanetExplorer planetExplorer = new PlanetExplorer(1,-1,"");
-		planetExplorer.getY();
+		planetExplorer.getYMaz();
 	}
 
 	@Test (expected=PlanetExplorerException.class) 
 	public void thePlanet_definePlanetOverFlowX() throws PlanetExplorerException
 	{
 		PlanetExplorer planetExplorer = new PlanetExplorer(Integer.MAX_VALUE + 1,1,"");
-		planetExplorer.getX();
+		planetExplorer.getXMax();
 	}
 
 	@Test (expected=PlanetExplorerException.class) 
 	public void thePlanet_definePlanetOverFlowY() throws PlanetExplorerException
 	{
 		PlanetExplorer planetExplorer = new PlanetExplorer(1,Integer.MAX_VALUE + 1,"");
-		planetExplorer.getY();
+		planetExplorer.getYMax();
 	}
 
 	@Test 
 	public void thePlanet_definePlanet1x2() throws PlanetExplorerException
 	{
 		PlanetExplorer planetExplorer = new PlanetExplorer(1,2,"");
-		assertEquals(1,  planetExplorer.getX());
-		assertEquals(2,  planetExplorer.getY());
+		assertEquals(1,  planetExplorer.getXMax()());
+		assertEquals(2,  planetExplorer.getYMax()());
 	}
 	
 	@Test 

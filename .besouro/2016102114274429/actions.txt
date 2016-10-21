@@ -59,3 +59,14 @@ UnitTestSessionAction 1477051388969 TestPlanetExplorer.java FAIL
 RefactoringAction 1477051408469 TestPlanetExplorer.java ADD void thePlanet_definePlanetNegativeX()/2 METHOD
 RefactoringAction 1477051414163 TestPlanetExplorer.java RENAME thePlanet_definePlanetNegativeX()/2=>void thePlanet_definePlanetNegativeY() METHOD
 EditAction 1477051427564 TestPlanetExplorer.java 942 4 8 2
+UnitTestCaseAction 1477051427879 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477051427879 TestPlanetExplorer.java FAIL
+RefactoringAction 1477051475397 TestPlanetExplorer.java ADD void thePlanet_definePlanetNegativeX()/2 METHOD
+RefactoringAction 1477051475397 TestPlanetExplorer.java ADD void thePlanet_definePlanetNegativeY()/2 METHOD
+RefactoringAction 1477051482635 TestPlanetExplorer.java RENAME thePlanet_definePlanetNegativeX()/2=>void thePlanet_definePlanetX() METHOD
+RefactoringAction 1477051484695 TestPlanetExplorer.java RENAME thePlanet_definePlanetX()=>void thePlanet_definePlanetOverX() METHOD
+RefactoringAction 1477051488298 TestPlanetExplorer.java RENAME thePlanet_definePlanetOverX()=>void thePlanet_definePlanetOverFlowX() METHOD
+RefactoringAction 1477051494991 TestPlanetExplorer.java RENAME thePlanet_definePlanetNegativeY()/2=>void thePlanet_definePlanetY() METHOD
+RefactoringAction 1477051497065 TestPlanetExplorer.java RENAME thePlanet_definePlanetY()=>void thePlanet_definePlanetOverY() METHOD
+RefactoringAction 1477051498625 TestPlanetExplorer.java RENAME thePlanet_definePlanetOverY()=>void thePlanet_definePlanetOverFlowY() METHOD
+EditAction 1477051745716 TestPlanetExplorer.java 1424 6 12 2

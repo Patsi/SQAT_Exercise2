@@ -25,7 +25,21 @@ public class TestPlanetExplorer
 	public void thePlanet_definePlanetNegativeY() throws PlanetExplorerException
 	{
 		PlanetExplorer planetExplorer = new PlanetExplorer(1,-1,"");
+		planetExplorer.getY();
+	}
+
+	@Test (expected=PlanetExplorerException.class) 
+	public void thePlanet_definePlanetOverFlowX() throws PlanetExplorerException
+	{
+		PlanetExplorer planetExplorer = new PlanetExplorer(Integer.MAX_VALUE + 1,1,"");
 		planetExplorer.getX();
+	}
+
+	@Test (expected=PlanetExplorerException.class) 
+	public void thePlanet_definePlanetOverFlowY() throws PlanetExplorerException
+	{
+		PlanetExplorer planetExplorer = new PlanetExplorer(1,Integer.MAX_VALUE + 1,"");
+		planetExplorer.getY();
 	}
 
 	

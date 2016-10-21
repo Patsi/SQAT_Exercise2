@@ -126,3 +126,8 @@ EditAction 1477052924582 TestPlanetExplorer.java 2085 9 19 6
 UnitTestCaseAction 1477052924881 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477052924881 TestPlanetExplorer.java FAIL
 EditAction 1477052938125 PlanetExplorer.java 1543 4 4 0
+UnitTestCaseAction 1477052938425 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477052938425 TestPlanetExplorer.java FAIL
+RefactoringAction 1477052951903 TestPlanetExplorer.java RENAME turning_emptyCommand()=>void turning_() METHOD
+RefactoringAction 1477052953448 TestPlanetExplorer.java RENAME turning_()=>void turning_l() METHOD
+EditAction 1477052972807 TestPlanetExplorer.java 2074 9 19 6

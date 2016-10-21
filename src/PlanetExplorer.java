@@ -56,12 +56,12 @@ public class PlanetExplorer
 		
 		for (int i = 0; i < command.length(); i++)
 		{
-			String s = command.substring(i, 1);
-			if ("l" == s)
+			String s = command.substring(i, i);
+			if ("l".equals(s))
 			{
 				cardinalDirection = (cardinalDirection + 3) % 4;
 			}
-			if ("r" == s)
+			if ("r".equals(s))
 			{
 				cardinalDirection = (cardinalDirection + 1) % 4;
 			}

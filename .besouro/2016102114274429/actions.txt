@@ -146,3 +146,9 @@ UnitTestSessionAction 1477053215132 TestPlanetExplorer.java FAIL
 EditAction 1477053280715 PlanetExplorer.java 1565 4 4 0
 CompilationAction 1477053280793 PlanetExplorer.java
 EditAction 1477053347327 PlanetExplorer.java 1593 4 5 0
+UnitTestCaseAction 1477053347626 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477053347626 TestPlanetExplorer.java FAIL
+RefactoringAction 1477053368328 TestPlanetExplorer.java ADD void turning_l()/2 METHOD
+RefactoringAction 1477053371931 TestPlanetExplorer.java RENAME turning_l()/2=>void turning_R() METHOD
+RefactoringAction 1477053373476 TestPlanetExplorer.java RENAME turning_R()=>void turning_r() METHOD
+EditAction 1477053397937 TestPlanetExplorer.java 2279 10 21 7

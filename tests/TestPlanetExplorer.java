@@ -47,8 +47,8 @@ public class TestPlanetExplorer
 	public void thePlanet_definePlanet1x2() throws PlanetExplorerException
 	{
 		PlanetExplorer planetExplorer = new PlanetExplorer(1,2,"");
-		assertEquals(1,  planetExplorer.getXMax()());
-		assertEquals(2,  planetExplorer.getYMax()());
+		assertEquals(1,  planetExplorer.getXMax());
+		assertEquals(2,  planetExplorer.getYMax());
 	}
 	
 	@Test 

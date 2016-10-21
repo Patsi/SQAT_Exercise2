@@ -24,3 +24,22 @@ RefactoringAction 1477050404646 TestPlanetExplorer.java RENAME _definePlanet100x
 RefactoringAction 1477050409794 TestPlanetExplorer.java RENAME t_definePlanet100x100()=>void the_definePlanet100x100() METHOD
 RefactoringAction 1477050412383 TestPlanetExplorer.java RENAME the_definePlanet100x100()=>void thePlanet_definePlanet100x100() METHOD
 EditAction 1477050437515 PlanetExplorer.java 1276 2 1 0
+CompilationAction 1477050437593 PlanetExplorer.java
+CompilationAction 1477050437593 PlanetExplorer.java
+CompilationAction 1477050437593 PlanetExplorer.java
+CompilationAction 1477050437640 TestPlanetExplorer.java
+CompilationAction 1477050437640 TestPlanetExplorer.java
+CompilationAction 1477050437671 TestPlanetExplorer.java
+CompilationAction 1477050437671 TestPlanetExplorer.java
+UnitTestCaseAction 1477050440107 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477050440107 TestPlanetExplorer.thePlanet_definePlanet100x100 FAIL
+RefactoringAction 1477050468047 PlanetExplorer.java ADD void getX() METHOD
+RefactoringAction 1477050522132 PlanetExplorer.java ADD int getX()/2 METHOD
+RefactoringAction 1477050528840 PlanetExplorer.java RENAME getX()/2=>int getY() METHOD
+UnitTestCaseAction 1477050535567 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477050535567 TestPlanetExplorer.thePlanet_definePlanet100x100 OK
+RefactoringAction 1477050644533 TestPlanetExplorer.java ADD void thePlanet_definePlanet100x100()/2 METHOD
+RefactoringAction 1477050654330 TestPlanetExplorer.java RENAME thePlanet_definePlanet100x100()/2=>void thePlanet_definePlanet() METHOD
+RefactoringAction 1477050660008 TestPlanetExplorer.java RENAME thePlanet_definePlanet()=>void thePlanet_definePlanetNegative() METHOD
+RefactoringAction 1477050866403 TestPlanetExplorer.java RENAME thePlanet_definePlanetNegative()=>void thePlanet_definePlanetNegativeX() METHOD
+EditAction 1477050910722 TestPlanetExplorer.java 587 3 6 2

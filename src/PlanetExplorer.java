@@ -29,5 +29,14 @@ public class PlanetExplorer {
 		return null;
 	}
 	
-	pu
+	public int getX ()
+	{
+		return 100;
+	}
+	
+	public int getY ()
+	{
+		return 100;
+	}
+	
 }

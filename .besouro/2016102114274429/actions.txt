@@ -131,3 +131,13 @@ UnitTestSessionAction 1477052938425 TestPlanetExplorer.java FAIL
 RefactoringAction 1477052951903 TestPlanetExplorer.java RENAME turning_emptyCommand()=>void turning_() METHOD
 RefactoringAction 1477052953448 TestPlanetExplorer.java RENAME turning_()=>void turning_l() METHOD
 EditAction 1477052972807 TestPlanetExplorer.java 2074 9 19 6
+UnitTestCaseAction 1477052973107 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477052973107 TestPlanetExplorer.turning_l OK
+UnitTestCaseAction 1477052976994 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477052976994 TestPlanetExplorer.java FAIL
+RefactoringAction 1477053002328 TestPlanetExplorer.java ADD PlanetExplorer planetExplorer FIELD
+RefactoringAction 1477053007991 TestPlanetExplorer.java RENAME planetExplorer=>PlanetExplorer planetExplorer1000 FIELD
+RefactoringAction 1477053009536 TestPlanetExplorer.java RENAME planetExplorer1000=>PlanetExplorer planetExplorer100 FIELD
+RefactoringAction 1477053012110 TestPlanetExplorer.java RENAME planetExplorer100=>PlanetExplorer planetExplorer100_100 FIELD
+RefactoringAction 1477053103744 TestPlanetExplorer.java REMOVE planetExplorer100_100 FIELD
+EditAction 1477053214833 TestPlanetExplorer.java 2077 9 19 6

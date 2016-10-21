@@ -6,6 +6,7 @@ import com.sun.xml.internal.ws.api.pipe.ThrowableContainerPropertySet;
 
 public class TestPlanetExplorer 
 {
+	
 	@Test 
 	public void thePlanet_definePlanet100x100() throws PlanetExplorerException
 	{
@@ -61,7 +62,7 @@ public class TestPlanetExplorer
 	public void turning_l() throws PlanetExplorerException
 	{
 		PlanetExplorer planetExplorer = new PlanetExplorer(100,100,"");
-		assertEquals("(0,0,N)",  planetExplorer.executeCommand(""));
+		assertEquals("(0,0,W)",  planetExplorer.executeCommand("l"));
 	}
 	
 	

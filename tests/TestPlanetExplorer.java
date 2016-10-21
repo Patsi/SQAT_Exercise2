@@ -4,7 +4,8 @@ import org.junit.Test;
 
 public class TestPlanetExplorer 
 {
-	@Test void test_definePlanet100x100
+	@Test 
+	public void test_definePlanet100x100()
 	{
 		PlanetExplorer planetExplorer = new PlanetExplorer(100,100,"");
 		assertEquals(100,  planetExplorer.getX());

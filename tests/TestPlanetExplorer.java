@@ -38,7 +38,7 @@ public class TestPlanetExplorer
 	@Test (expected=PlanetExplorerException.class) 
 	public void thePlanet_definePlanetOverFlowY() throws PlanetExplorerException
 	{
-		PlanetExplorer planetExplorer = new PlanetExplorer(1,Integer.MAX_VALUE,"");
+		PlanetExplorer planetExplorer = new PlanetExplorer(1,Integer.MAX_VALUE + 1,"");
 		planetExplorer.getY();
 	}
 

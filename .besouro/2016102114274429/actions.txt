@@ -1,0 +1,4 @@
+FileOpenedAction 1477049264248 PlanetExplorer.java 1270 2 1 0
+FileOpenedAction 1477049838688 TestPlanetExplorer.java 174 1 1 0
+RefactoringAction 1477049931068 TestPlanetExplorer.java ADD void test_definePlanet100x100 FIELD
+EditAction 1477050259590 TestPlanetExplorer.java 376 1 1 0

@@ -45,6 +45,10 @@ public class PlanetExplorer
 		{
 			return"(0,0,W)";
 		}
+		if ("r" == command)
+		{
+			return"(0,0,E)";
+		}
 		return "(0,0,N)";
 	}
 	

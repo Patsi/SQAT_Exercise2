@@ -50,6 +50,13 @@ public class TestPlanetExplorer
 		assertEquals(2,  planetExplorer.getY());
 	}
 	
+	@Test 
+	public void landing_() throws PlanetExplorerException
+	{
+		PlanetExplorer planetExplorer = new PlanetExplorer(100,100,"");
+		assertEquals("0,0,N",  planetExplorer.executeCommand(""));
+	}
+	
 
 	@Test
 	public void test_executeCommand() 

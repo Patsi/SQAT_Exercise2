@@ -89,3 +89,11 @@ UnitTestSessionAction 1477051971034 TestPlanetExplorer.java FAIL
 RefactoringAction 1477052037975 PlanetExplorer.java ADD int x FIELD
 RefactoringAction 1477052045198 PlanetExplorer.java ADD int y FIELD
 EditAction 1477052092310 PlanetExplorer.java 1536 4 4 0
+UnitTestCaseAction 1477052092640 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477052092656 TestPlanetExplorer.java FAIL
+RefactoringAction 1477052148894 TestPlanetExplorer.java ADD void thePlanet_definePlanet1x2()/2 METHOD
+RefactoringAction 1477052158176 TestPlanetExplorer.java RENAME thePlanet_definePlanet1x2()/2=>void _definePlanet1x2() METHOD
+RefactoringAction 1477052159206 TestPlanetExplorer.java RENAME _definePlanet1x2()=>void lan_definePlanet1x2() METHOD
+RefactoringAction 1477052160750 TestPlanetExplorer.java RENAME lan_definePlanet1x2()=>void landing_definePlanet1x2() METHOD
+RefactoringAction 1477052169002 TestPlanetExplorer.java RENAME landing_definePlanet1x2()=>void landing_() METHOD
+EditAction 1477052501236 TestPlanetExplorer.java 1857 8 17 5

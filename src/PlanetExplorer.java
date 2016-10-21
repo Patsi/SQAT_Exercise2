@@ -5,6 +5,9 @@
 
 public class PlanetExplorer 
 {
+	private int x;
+	private int y;
+	
 	public PlanetExplorer(int x, int y, String obstacles) throws PlanetExplorerException 
 	{
 	/*	x and y represent the size of the grid.
@@ -17,6 +20,11 @@ public class PlanetExplorer
 		if (x < 0 || y < 0)
 		{
 			throw new PlanetExplorerException();
+		}
+		else
+		{
+			this.x = x;
+			this.y = y;
 		}
 	}
 	
@@ -37,12 +45,12 @@ public class PlanetExplorer
 	
 	public int getX ()
 	{
-		return 100;
+		return x;
 	}
 	
 	public int getY ()
 	{
-		return 100;
+		return y;
 	}
 	
 }
